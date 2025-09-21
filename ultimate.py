@@ -329,32 +329,11 @@ def minimax(board, depth, maximizing_player):
                 best_move = move
         return best_value, best_move
 
-########### Run the Game ###############
-# pygame.init()
-# screen = pygame.display.set_mode((300, 300))
-# clock = pygame.time.Clock()
-#
-# mini = MiniBoard(0, 0, 300)
-# run = True
-# while run:
-#     for event in pygame.event.get():
-#         if event.type == pygame.QUIT:
-#             run = False
-#         elif event.type == pygame.MOUSEBUTTONDOWN:
-#             x, y = pygame.mouse.get_pos()
-#             row = y // 100
-#             col = x // 100
-#             mini.mark(row, col, 1)
-#     screen.fill(white)
-#     mini.draw(screen)
-#     pygame.display.flip()
-#     clock.tick(60)
-#
-# pygame.quit()
 
 if __name__ == "__main__":
     print("Test")
     game = Game()
     game.run()
     pygame.quit()
+
     sys.exit()
