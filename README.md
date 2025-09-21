@@ -1,2 +1,2 @@
 # Ultimate-Tic-Tac-Toe
-Graphical Ultimate Tic Tac Toe Python
+# Install the libraries given at the top of the python file
